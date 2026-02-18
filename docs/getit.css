@@ -29,24 +29,26 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+
+/* Botão Criar ===============*/
+ .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
 
-  overflow: hidden;
-
-  border-width: 0;
-  outline: none;
   border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
-
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   background-color: #f7d736;
+  border-color: transparent;
+  height: 30px;
+  margin-top: 20px;
 
-  transition: background-color 0.3s;
 }
 
-.btn > * {
+/* Titulo Criar*/
+
+
+/*.btn > * {
   position: relative;
 }
 
@@ -78,3 +80,113 @@ body {
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 } */
+
+/* Header: ========= */
+.appbar {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: #f7d736;
+  height: 70px;
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+/* Logo: */
+.logo {
+
+  width: 60px;
+  height: 40px;
+  margin-left: 8px;
+
+}
+
+/* Texto do titulo: */
+.subtitle{
+
+  margin-left: 15px;
+
+}
+
+/* Fim do Header ================*/
+
+/* Titulo e botão ==============*/
+/* Fundo do titulo*/
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px
+}
+
+/* Parte branca, fundo da parte escrita */
+.form-card{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+
+  margin-bottom: 25px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  width: 500px;
+  height: 130px;
+  border-radius: 2%;
+
+}
+
+/* Os Post-its*/
+.card-container{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
+}
+
+/* Organização de todos os cartões*/
+.card{
+
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  
+  padding: 1%;
+
+  background-color: #ead3a7;
+
+  margin-left: 20px;
+  width: 220px;
+  height: 100px;
+
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-left: 4%;
+
+  border-radius: 2%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  
+
+}
+
+/* Titulo dos Post-Its*/
+.card-title{
+
+  font-weight: bold;
+  font-family: 'Permanent Marker', cursive;
+
+}
+
+/* Corpo dos Post-Its -- Texto de dentro */
+.card-content{
+
+  display: block;
+  align-self: center;
+
+
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 8%;
+  color: #4c4c4c;
+
+}
