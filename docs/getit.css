@@ -160,6 +160,10 @@ body {
   
 }
 
+/* pra remover o cantinho do texto*/
+textarea{
+  resize: none;
+}
 
 /* Titulo dos Post-Its*/
 .card-title{
