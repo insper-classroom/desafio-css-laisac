@@ -6,3 +6,5 @@ Para mais detalhes acesse: [https://barbaratieko.github.io/tecweb/aulas/02-desaf
 Adicione aqui o nome de todos os integrantes:
 
 - Láisa Camilly de Oliveira
+
+**Fiz com o zoom do meu computador em 90% e fica bem parecido com o da referência.**
